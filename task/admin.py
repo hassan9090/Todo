@@ -1,7 +1,6 @@
 from django.contrib import admin
 from .models import Task, State
 
-# Register your models here.
 
 class TaskAdmin(admin.ModelAdmin):  # add this
       list_display = ('title', 'description', 'state') # add this

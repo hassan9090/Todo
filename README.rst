@@ -4,7 +4,7 @@ Task
 
 Task is a simple Django app to conduct Web-based task management. For each
 task, visitors can change task status till it's done.
-pip
+
 
 Quick start
 -----------
@@ -32,3 +32,4 @@ Quick start
     /task/ - This returns a list of all the Task items (Create and Read operations can be done here).
 
     /task/id - this returns a single Task item using the id primary key (Update and Delete operations can be done here).
+7. we can enhance the project by applying state design pattern or implement this package: https://github.com/viewflow/django-fsm
